@@ -67,6 +67,7 @@ Create a Job Template for each of these playbooks.
 For the deploy_servers playbook:
 - Use the provided "local" inventory. For all others the "TechXchangeNL" inventory.
 - Use the "Hashicorp Terraform Cloud" credential you made.
+- Add an extra var "workspace" with as the value the name of your workspace
 
 For the other playbooks:
 - Use the TechXchangeNL inventory
@@ -85,13 +86,3 @@ Having job templates (automation building blocks) we create two workflows:
 
 ### token
 Part of the workshop is showing how you can run stuff _in_ AAP _from_ HashiCorp Terraform Cloud. For this, you need to provide a token from AAP to your HashiCorp Terraform Cloud workspace. You can create a token yourself using _API token_ under _Access Management_ in the menu. Choose write access. Copy/Paste the token somewhere, because it will only be shown once! HashiCorp Terraform Cloud will need both the username and the token.
-
-
-
-
-
-
-
-
-
-
