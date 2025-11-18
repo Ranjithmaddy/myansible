@@ -4,6 +4,9 @@
   hosts: rhel
   become: yes
 
+  vars:
+    git_base: 
+
   tasks:
   - name: Copy the code from repository
     git:
