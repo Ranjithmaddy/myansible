@@ -33,7 +33,7 @@ You need to create some building blocks in AAP for this workshop. This document 
 Wherever you can and/or need to specify an Organization, choose `TechXchangeNL`, unless stated otherwise.
 
 
-#### Project
+### Project
 You need to create a project in AAP. The project is your repository with playbooks.
 - Fork the the Ansible repository that you can find [here](https://github.com/TechXchangeNL/ansible.git)
 - Create a project in `Automation Execution > Projects` and use this fork. Enable `Update REvisions on Job Lauch`
