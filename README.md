@@ -117,10 +117,10 @@ These are made under `Automation Decisions > Infrastructure > Credentials` We ne
 - A credential that _HCP Terraform Actions_ will use to be able to send events to EDA. It needs to be of type `Basic Event Stream`. You can camoe up with any username and password as long as you remember them for when they are needed to configure the _HCP Terraform Action_.
 
 ### Event Stream
-Define an Event Stream. This is used by _Terraform Actions_ later on to emit events to. Use the event stream type `Basic Event Stream` and provide the credential of the same type you just made. After creation it will generate a unique URL that _Terraform Actions_ will send its events to and is protected, so you also need the _username_ and _password_ of the credential.
+Define an Event Stream. This is used by _Terraform Actions_ later on to emit events to. Use the event stream type `Basic Event Stream` and provide the credential of the same type you just made. After creation it will generate a unique URL that _Terraform Actions_ will send its events to and is protected, so you also need the _username_ and _password_ of the credential. Suggestion for a name: "Terraform Actions".
 
 ### Rulebook Activation
-This defines and runs a listener for the events on the generated URL. Use the rulebook from the project you just created. The credential is the one for the controller. For `Event Stream` you need to make something called a _mapping_ which maps the source definition to this stream. There is only one mapping available so that is easy.
+This defines and runs a listener for the events on the generated URL. Use the rulebook from the project you just created. The credential is the one for the controller. For `Event Stream` you need to make something called a _mapping_ which maps the source definition to this stream. There is only one mapping available so that is easy. Name suggestion: "Terraform Actions Listener"
 
 > Set the log level to debug which would help you when things don't work.
 
