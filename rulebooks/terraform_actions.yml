@@ -10,8 +10,4 @@
 
   rules:
     - name: Terraform Post Create Action
-      condition: event.payload.template_type == "workflow_job"
-      action:
-        run_workflow_template:
-          name: "{{ event.payload.workflow_job_template_name }}"
-          organization: "{{ event.payload.organization_name }}"
+
