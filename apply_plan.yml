@@ -5,7 +5,7 @@
       hashicorp.terraform.run:
         project_path: "."
         workspace_id: "ws-KLXqDEptSCDcBMv8"
-        state: "planned"
+        state: "present"
         plan_file: "main.tf"
 
   
