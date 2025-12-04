@@ -4,7 +4,6 @@
     - name: Apply a terraform plan
       hashicorp.terraform.run:
         project_path: "."
-        workspace: "myterraform"
         workspace_id: "ws-KLXqDEptSCDcBMv8"
         state: "planned"
         plan_file: "main.tf"
