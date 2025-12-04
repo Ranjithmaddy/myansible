@@ -5,7 +5,6 @@
       hashicorp.terraform.run:
         workspace_id: "ws-KLXqDEptSCDcBMv8"
         state: "present"
-        plan_file: "main.tf"
         Auto_apply: true
 
   
