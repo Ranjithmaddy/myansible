@@ -5,7 +5,7 @@
       hashicorp.terraform.run:
         workspace_id: "ws-KLXqDEptSCDcBMv8"
         state: "present"
-        Auto_apply: true
+        auto_apply: true
 
   
 
